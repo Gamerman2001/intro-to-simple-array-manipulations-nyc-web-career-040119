@@ -29,3 +29,7 @@ end
 def using_insert(arr, el1)
   arr.insert(4, el1)
 end 
+
+def using_uniq(uni)
+    
+end 
