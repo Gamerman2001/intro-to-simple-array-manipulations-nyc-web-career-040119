@@ -12,7 +12,7 @@ end
 
 def pop_with_args(arr)
   pop1_2 = Array.new 
-  pop1_2 = arr.pop 
-  pop1_2 += arr.pop
+  pop1_2 << arr.pop 
+  pop1_2 << arr.pop
   pop1_2
 end 
